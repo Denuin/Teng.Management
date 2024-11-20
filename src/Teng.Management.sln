@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teng.Management", "Teng.Management\Teng.Management.csproj", "{E7BA2136-6BBF-4C02-A2E7-1B1DF4E724D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teng.Management.Console", "tests\Teng.Management.Console\Teng.Management.Console.csproj", "{C4C27823-55C7-443F-9F92-30042F3C4CA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{211D6A27-DF80-4052-BEB2-DC6D83B4F3BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7BA2136-6BBF-4C02-A2E7-1B1DF4E724D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BA2136-6BBF-4C02-A2E7-1B1DF4E724D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BA2136-6BBF-4C02-A2E7-1B1DF4E724D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BA2136-6BBF-4C02-A2E7-1B1DF4E724D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C27823-55C7-443F-9F92-30042F3C4CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C27823-55C7-443F-9F92-30042F3C4CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C27823-55C7-443F-9F92-30042F3C4CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C27823-55C7-443F-9F92-30042F3C4CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4C27823-55C7-443F-9F92-30042F3C4CA6} = {211D6A27-DF80-4052-BEB2-DC6D83B4F3BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3481A008-9C27-455D-8A16-1E016DAA107C}
+	EndGlobalSection
+EndGlobal
